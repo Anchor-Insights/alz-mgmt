@@ -324,7 +324,7 @@ hub_virtual_networks = {
     # Point-to-Site VPN Configuration
     vpn_point_to_site = {
       address_space = ["192.168.100.0/24"] # IP pool for VPN clients
-      
+
       # Microsoft Entra ID (Azure AD) Authentication
       aad_tenant   = "https:/login.microsoftonline.com/"
       aad_audience = "41b23e61-6c1e-4545-b367-cd054e0ed4b4" # Azure VPN App ID
